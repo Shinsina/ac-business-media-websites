@@ -201,6 +201,21 @@ services:
     depends_on:
       - mongodb
 
+  acon:
+    <<: *site-cmd
+    working_dir: /root/sites/asphalt.com
+    environment:
+      <<: *env
+      PORT: 80
+      EXPOSED_PORT: 9722
+      LIVERELOAD_PORT: 19722
+      OMEDA_INPUT_ID: ${ACON_OMEDA_INPUT_ID-(unset)}
+      HOST: www-acbm-acon.dev.parameter1.com
+    hostname: www-acbm-acon.dev.parameter1.com
+    ports:
+      - "9722:80"
+      - "19722:19722"
+
   mongodb:
     tty: true
     image: mongo:5

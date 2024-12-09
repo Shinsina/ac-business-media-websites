@@ -1,4 +1,5 @@
 const corporate = require('@ac-business-media/package-global/config/corporate');
+const specGuides = require('@ac-business-media/package-global/config/spec-guides');
 const contentMeter = require('./content-meter');
 const gam = require('./gam');
 const identityX = require('./identity-x');
@@ -9,7 +10,6 @@ const omeda = require('./omeda');
 const omedaIdentityX = require('./omeda-identity-x');
 const identityXOptInHooks = require('./identity-x-opt-in-hooks');
 const pageDetails = require('./page-details');
-const specGuides = require('./spec-guides');
 
 module.exports = {
   // Module configs
@@ -64,7 +64,6 @@ module.exports = {
     },
     corporate: corporate.logo,
   },
-  useSectionLogos: true,
   tagline: ' ',
   socialMediaLinks: [
     { provider: 'facebook', href: 'https://www.facebook.com/ForConstructionPros', target: '_blank' },

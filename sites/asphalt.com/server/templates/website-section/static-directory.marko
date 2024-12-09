@@ -1,0 +1,12 @@
+import categories from "../../../config/categories";
+
+$ const { id, alias, name, pageNode } = input;
+
+<global-website-section-static-directory-layout
+ id=id
+ alias=alias
+ name=name
+ page-node=pageNode
+>
+  <@directory facets=categories />
+</global-website-section-static-directory-layout>
