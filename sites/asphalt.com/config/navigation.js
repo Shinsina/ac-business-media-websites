@@ -91,7 +91,7 @@ module.exports = {
           { href: '/application/preservation', label: 'Preservation' },
           { href: '/application/technology', label: 'Technology' },
           { href: '/application/compaction', label: 'Compaction' },
-          { href: '/application/dirt-job', label: 'Dirt Job' },
+          { href: '/application/dirt-work', label: 'Dirt Work' },
           { href: '/application/infrastructure', label: 'Infrastructure' },
         ],
       },
