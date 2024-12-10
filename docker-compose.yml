@@ -218,7 +218,7 @@ services:
 
   pvm:
     <<: *site-cmd
-    working_dir: /root/sites/pvm
+    working_dir: /root/sites/pavementonline.com
     environment:
       <<: *env
       PORT: 80

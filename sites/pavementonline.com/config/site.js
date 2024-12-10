@@ -48,7 +48,7 @@ module.exports = {
   p1events: {
     tenant: 'acbm',
     enabled: true,
-    cookieDomain: process.env.NODE_ENV === 'production' ? 'www.PVM**Online.com' : '',
+    cookieDomain: process.env.NODE_ENV === 'production' ? 'www.pavementonline.com' : '',
   },
   logos: {
     navbar: {
@@ -87,20 +87,20 @@ module.exports = {
         bgColor: '#000',
         logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
       },
-      to: 'support@PVM**Online.com',
-      from: 'Pavement Maintenance & Reconstruction <noreply@PVM**Online.com>',
+      to: 'support@pavementonline.com',
+      from: 'Pavement Maintenance & Reconstruction <noreply@pavementonline.com>',
     },
     branding: {
       bgColor: '#000',
       logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
     },
-    to: 'support@PVM**Online.com',
+    to: 'support@pavementonline.com',
   },
   inquiry: {
     enabled: true,
     directSend: true,
-    sendTo: 'requestmoreinfo@acbusinessmedia.com',
-    sendFrom: 'Asphalt.com <noreply@parameter1.com>',
+    sendTo: 'requestmoreinfo@pavementonline.com',
+    sendFrom: 'Pavementonline.com <noreply@parameter1.com>',
     logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
     bgColor: '#000',
   },
