@@ -64,6 +64,7 @@ module.exports = {
     },
     corporate: corporate.logo,
   },
+  useSectionLogos: true,
   tagline: ' ',
   socialMediaLinks: [
     { provider: 'facebook', href: 'https://www.facebook.com/ForConstructionPros', target: '_blank' },
