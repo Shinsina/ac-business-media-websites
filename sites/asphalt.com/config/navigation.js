@@ -13,7 +13,7 @@ const topics = [
   // { href: '/events', label: 'Events' },
   // { href: '/page/Subscribe-Links', label: 'Magazine' },
   // { href: 'https://acbusiness.dragonforms.com/loading.do?omedasite=FCP_prefs_ProgReg', label: 'Newsletters' },
-  { href: '/sponsored', label: 'Premium Content' },
+  { href: '/premium-content', label: 'Premium Content' },
 ];
 
 const secondary = [
