@@ -16,9 +16,6 @@ const withoutNativeXAlias = [
 const withoutAdsAliases = [
   'premium-content',
   'whitepapers',
-  'km-international-videos',
-  'equipment/USG-your-unrivaled-edge-series',
-  'profit-matters/on-site-series',
 ];
 
 module.exports = (app) => {
