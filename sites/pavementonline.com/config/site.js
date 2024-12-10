@@ -1,5 +1,4 @@
 const corporate = require('@ac-business-media/package-global/config/corporate');
-const specGuides = require('@ac-business-media/package-global/config/spec-guides');
 
 const contentMeter = require('./content-meter');
 const gam = require('./gam');
@@ -111,7 +110,6 @@ module.exports = {
     88738, // Maintenance
     88743, // Business
   ],
-  specGuides,
   mindful: {
     namespace: 'acbm/default',
   },

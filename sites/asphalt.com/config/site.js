@@ -1,5 +1,10 @@
 const corporate = require('@ac-business-media/package-global/config/corporate');
 const specGuides = require('@ac-business-media/package-global/config/spec-guides');
+const roller = require('@ac-business-media/package-global/config/spec-guides/roller');
+
+specGuides.guides = { roller };
+specGuides.title = 'Asphat.com Spec Guides';
+specGuides.description = '<em>Asphalt.com</em> Spec Guides are essential industry tools to help you make the right choices when purchasing or renting aphalt equipment. Use the industry’s first and only completely interactive component specifiers custom built <strong>for construction equipment owners and end users.</strong>';
 
 const contentMeter = require('./content-meter');
 const gam = require('./gam');
