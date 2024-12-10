@@ -216,6 +216,21 @@ services:
       - "9722:80"
       - "19722:19722"
 
+  pvm:
+    <<: *site-cmd
+    working_dir: /root/sites/pvm
+    environment:
+      <<: *env
+      PORT: 80
+      EXPOSED_PORT: 9723
+      LIVERELOAD_PORT: 19723
+      OMEDA_INPUT_ID: ${PVM_OMEDA_INPUT_ID-(unset)}
+      HOST: www-acbm-pvm.dev.parameter1.com
+    hostname: www-acbm-pvm.dev.parameter1.com
+    ports:
+      - "9723:80"
+      - "19723:19723"
+
   mongodb:
     tty: true
     image: mongo:5

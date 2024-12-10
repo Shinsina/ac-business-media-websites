@@ -1,0 +1,162 @@
+$theme-site-header-breakpoints: (
+  hide-primary: 1100px,
+  hide-secondary: 700px,
+  small-logo: 775px,
+  small-text-primary: 0,
+  small-text-secondary: 830px
+);
+
+
+// Colors
+$primary: #ce3828;
+$secondary: #495057;
+$light: #e9ecef;
+$dark: #212529;
+$info: #6c757d;
+
+$skin-block-header-overline-color: $dark;
+$theme-site-navbar-secondary-font-size: 12px !default;
+
+@import "@ac-business-media/package-global/scss/core";
+
+/*! purgecss start ignore */
+/*! critical:start|website-section.directory */
+@import "@ac-business-media/package-global/scss/components/directory-static";
+/*! critical:end|website-section.directory */
+// Will most likely move to sites.
+@import "@ac-business-media/package-global/scss/components/reveal-ad";
+/*! purgecss end ignore */
+/*! critical:end */
+
+.spec-guide-button {
+  $color: #1e5d92;
+  @include button-variant($color, $color);
+
+  &--blacktop {
+    $color: #ce3828;
+    @include button-variant($color, $color);
+  }
+
+  &--maintenance {
+    $color: #fdb813;
+    @include button-variant($color, $color);
+  }
+
+  &--business {
+    $color: #3bb032;
+    @include button-variant($color, $color);
+  }
+}
+
+.newsletter-form {
+  > .newsletter-signup-banner {
+    background-color: #3F4043;
+    color: $white;
+
+    &__name,
+    &__description,
+    label,
+    a {
+      color: $white;
+    }
+    .btn-primary,
+    .btn-primary:hover {
+      background-color: $primary;
+      color: $black;
+    }
+    &--large {
+      background-color: #3F4043;
+      .newsletter-signup-banner__name,
+      .newsletter-signup-banner__description,
+      label,
+      a {
+        color: $white;
+      }
+      .btn-primary,
+      .btn-primary:hover {
+        background-color: $primary;
+        color: $black;
+      }
+    }
+  }
+}
+
+
+
+
+body .document-container > .page--website-section-77798:first-of-type,
+body .document-container > .page--website-section-57411:first-of-type,
+body .document-container > .page--website-section-85252:first-of-type,
+body .document-container > .page--website-section-86540:first-of-type,
+body .document-container > .page--website-section-81549:first-of-type,
+body .document-container > .page--spec-guide-index:first-of-type,
+body .document-container > .page--spec-guide:first-of-type,
+body .document-container > .page--without-ads:first-of-type  {
+  margin-top: 0;
+}
+// Site Section Colors
+$website-section-colors: (
+  application: #ffc20a,
+  production: #ffa200,
+  business: #9acb3c,
+  videos: #f26522,
+  awards: #e9a422,
+);
+
+/*! purgecss start ignore */
+/*! critical:start */
+
+.website-section-header {
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 0;
+
+  & .page-image--section-logo {
+    width: 135px;
+    padding-right: 10px;
+    margin-bottom: 0;
+  }
+
+  & > .page-wrapper__website-section-name {
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+    padding-left: 10px;
+    margin-bottom: 0;
+
+    border-left: solid $primary 4px;
+    @each $section, $color in $website-section-colors {
+      // page-wrapper__website-section-name--#54497
+      &--#{$section} {
+        border-left: solid $color 4px;
+      }
+    }
+  }
+}
+
+.site-navbar {
+  $self: &;
+  &__logo {
+    height: 45px;
+  }
+
+  &--primary,
+  &--secondary {
+    @each $section, $color in $website-section-colors {
+      #{ $self } {
+        &__link[href*="#{$section}"]:hover,
+        &__link--active[href*="#{$section}"] {
+          color: $color;
+        }
+      }
+    }
+  }
+
+  &__items--tertiary {
+    #{ $self }__link {
+      padding-right: 0
+    }
+  }
+}
+/*! purgecss end ignore */
+/*! critical:end */
