@@ -29,6 +29,10 @@ module.exports = {
   omeda,
   omedaIdentityX,
   identityXOptInHooks,
+  magazines: {
+    publicationIds: ['53ca94211784f8066eb2c983'],
+    description: '',
+  },
   wufoo: {
     userName: 'acbm',
   },
@@ -48,9 +52,9 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=45&auto=format,compress',
+      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=45&auto=format,compress',
       srcset: [
-        'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=90&auto=format,compress 2x',
+        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=90&auto=format,compress 2x',
       ],
       // src: 'https://s3.amazonaws.com/media.base.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=45&auto=format,compress',
       // srcset: [
@@ -58,9 +62,9 @@ module.exports = {
       // ],
     },
     footer: {
-      src: 'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=45&auto=format,compress',
+      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=45&auto=format,compress',
       srcset: [
-        'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=90&auto=format,compress 2x',
+        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=90&auto=format,compress 2x',
       ],
     },
     corporate: corporate.logo,
@@ -81,14 +85,14 @@ module.exports = {
     notificationDefaults: {
       branding: {
         bgColor: '#000',
-        logo: 'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=45&auto=format,compress',
+        logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=45&auto=format,compress',
       },
       to: 'support@asphalt.com',
       from: 'Asphalt Contractor <noreply@asphalt.com>',
     },
     branding: {
       bgColor: '#000',
-      logo: 'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=45&auto=format,compress',
+      logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=45&auto=format,compress',
     },
     to: 'support@asphalt.com',
   },
@@ -97,18 +101,15 @@ module.exports = {
     directSend: true,
     sendTo: 'requestmoreinfo@acbusinessmedia.com',
     sendFrom: 'Asphalt.com <noreply@parameter1.com>',
-    logo: 'https://img.forconstructionpros.com/files/base/acbm/acon/image/static/asphalt_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
+    logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
     bgColor: '#000',
   },
   pageDetails,
   showCompanySectionFilters: true,
   sectionSearchIds: [
-    54289, // Asphalt
-    54300, // Business
-    54436, // Concrete
-    54319, // Construction Technology
-    54330, // Equipment
-    54468, // Pavement Maintenance
+    88709, // Application
+    88717, // Production
+    88721, // Business
   ],
   specGuides,
   mindful: {
