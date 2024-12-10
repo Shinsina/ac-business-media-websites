@@ -205,7 +205,7 @@ services:
     <<: *site-cmd
     working_dir: /root/sites/asphalt.com
     environment:
-      <<: *env
+      <<: [*env, *env-leonis]
       PORT: 80
       EXPOSED_PORT: 9722
       LIVERELOAD_PORT: 19722
@@ -220,7 +220,7 @@ services:
     <<: *site-cmd
     working_dir: /root/sites/pavementonline.com
     environment:
-      <<: *env
+      <<: [*env, *env-leonis]
       PORT: 80
       EXPOSED_PORT: 9723
       LIVERELOAD_PORT: 19723
