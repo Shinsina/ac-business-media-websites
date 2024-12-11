@@ -162,7 +162,7 @@ module.exports = {
     },
   },
   footer: {
-    top,
+    topics,
     more: exclusives,
     items: [
       ...utilities,
