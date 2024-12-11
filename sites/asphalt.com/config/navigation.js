@@ -9,18 +9,30 @@ const topics = [
   { href: '/application', label: 'Application' },
   { href: '/production', label: 'Production' },
   { href: '/business', label: 'Business' },
-  { href: '/videos', label: 'Video' },
-  // { href: '/events', label: 'Events' },
-  // { href: '/page/Subscribe-Links', label: 'Magazine' },
-  // { href: 'https://acbusiness.dragonforms.com/loading.do?omedasite=FCP_prefs_ProgReg', label: 'Newsletters' },
+];
+
+const top = [
+  ...topics,
+  { href: '/videos', label: 'Videos' },
+  { href: '/awards', label: 'Awards' },
+  { href: '/events', label: 'Events' },
   { href: '/premium-content', label: 'Premium Content' },
 ];
 
-const secondary = [
-  // { href: 'https://www.constructionnetworkmediakit.com/', label: 'Advertise', target: '_blank' },
+const exclusives = [
+  { href: '/specguide', label: 'Spec Guides' },
+  { href: '/premium-content', label: 'Premium Content' },
+  { href: 'https://www.pavexshow.com/', label: 'PAVE/X', target: '_blank' },
+  { href: 'https://igniteconstructionsummit.com/', label: 'IGNITE', target: '_blank' },
+  { href: '/videos', label: 'Videos' },
 ];
 
-const exclusives = [];
+const expertInsights = [
+  { href: '/premium-content', label: 'Premium Content' },
+  { href: '/events', label: 'Events' },
+  { href: '/magazine', label: 'Magazine' },
+  { href: '/awards', label: 'Awards' },
+];
 
 const utilities = [
   { href: '/contact-us', label: 'Contact Us' },
@@ -33,9 +45,10 @@ const mobileMenu = {
   user,
   primary: [
     ...topics,
+    { href: '/videos', label: 'Video' },
+    { href: '/events', label: 'Events' },
   ],
   secondary: [
-    ...secondary,
     { href: '/page/Subscribe-Links', label: 'Magazines' },
     { href: 'https://acbusiness.dragonforms.com/loading.do?omedasite=FCP_prefs_ProgReg', label: 'Newsletters' },
     { href: 'https://www.constructionnetworkmediakit.com/', label: 'Advertise', target: '_blank' },
@@ -73,16 +86,18 @@ module.exports = {
   mobileMenu,
   topics,
   primary: {
-    items: secondary,
+    items: [],
   },
   secondary: {
-    items: topics,
+    items: [
+      ...top,
+    ],
   },
   tertiary,
   contexts: [
     {
       when: ['/application'],
-      secondary: { items: topics },
+      secondary: { items: top },
       tertiary,
       primary: {
         items: [
@@ -98,7 +113,7 @@ module.exports = {
     },
     {
       when: ['/production'],
-      secondary: { items: topics },
+      secondary: { items: top },
       tertiary,
       primary: {
         items: [
@@ -110,7 +125,7 @@ module.exports = {
     },
     {
       when: ['/business'],
-      secondary: { items: topics },
+      secondary: { items: top },
       tertiary,
       primary: {
         items: [
@@ -140,7 +155,7 @@ module.exports = {
     },
     col3: {
       label: 'Expert Insights',
-      items: [],
+      items: [...expertInsights],
     },
     col4: {
       label: 'Resources',
