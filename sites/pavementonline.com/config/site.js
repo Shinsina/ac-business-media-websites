@@ -51,9 +51,9 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
+      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=45&auto=format,compress',
       srcset: [
-        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=90&auto=format,compress 2x',
+        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=90&auto=format,compress 2x',
       ],
       // src: 'https://s3.amazonaws.com/media.base.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=45&auto=format,compress',
       // srcset: [
@@ -61,9 +61,9 @@ module.exports = {
       // ],
     },
     footer: {
-      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
+      src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=45&auto=format,compress',
       srcset: [
-        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=90&auto=format,compress 2x',
+        'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=90&auto=format,compress 2x',
       ],
     },
     corporate: corporate.logo,
@@ -83,15 +83,15 @@ module.exports = {
   contactUs: {
     notificationDefaults: {
       branding: {
-        bgColor: '#000',
-        logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
+        bgColor: '#ce3828',
+        logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=45&auto=format,compress',
       },
       to: 'support@pavementonline.com',
       from: 'Pavement Maintenance & Reconstruction <noreply@pavementonline.com>',
     },
     branding: {
-      bgColor: '#000',
-      logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress',
+      bgColor: '#ce3828',
+      logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=45&auto=format,compress',
     },
     to: 'support@pavementonline.com',
   },
@@ -100,8 +100,8 @@ module.exports = {
     directSend: true,
     sendTo: 'requestmoreinfo@pavementonline.com',
     sendFrom: 'Pavementonline.com <noreply@parameter1.com>',
-    logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_header_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
-    bgColor: '#000',
+    logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/pavement_bw_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
+    bgColor: '#ce3828',
   },
   pageDetails,
   showCompanySectionFilters: true,

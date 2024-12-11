@@ -102,7 +102,7 @@ module.exports = {
           { href: '/maintenance/sealcoating', label: 'Sealcoating' },
           { href: '/maintenance/sweeping', label: 'Sweeping' },
           { href: '/maintenance/striping', label: 'Striping' },
-          { href: '/maintenance/striping', label: 'Striping' },
+          { href: '/maintenance/patching', label: 'Patching' },
         ],
       },
     },

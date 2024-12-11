@@ -41,11 +41,6 @@ $theme-site-navbar-secondary-font-size: 12px !default;
     $color: #fdb813;
     @include button-variant($color, $color);
   }
-
-  &--skid-steer {
-    $color: #000;
-    @include button-variant($color, $color);
-  }
 }
 
 .newsletter-form {
@@ -94,61 +89,30 @@ body .document-container > .page--spec-guide:first-of-type,
 body .document-container > .page--without-ads:first-of-type  {
   margin-top: 0;
 }
-// Site Section Colors
-$website-section-colors: (
-  blacktop: #ffc20a,
-  maintanence: #ffa200,
-  business: #9acb3c,
-  events: #f51264,
-  videos: #f26522,
-  awards: #e9a422,
-);
-
-/*! purgecss start ignore */
-/*! critical:start */
-
-.website-section-header {
-  align-items: center;
-  margin-bottom: 10px;
-  margin-left: 0;
-
-  & .page-image--section-logo {
-    width: 135px;
-    padding-right: 10px;
-    margin-bottom: 0;
-  }
-
-  & > .page-wrapper__website-section-name {
-    @media (max-width: 768px) {
-      font-size: 20px;
-    }
-    padding-left: 10px;
-    margin-bottom: 0;
-
-    border-left: solid $primary 4px;
-    @each $section, $color in $website-section-colors {
-      // page-wrapper__website-section-name--#54497
-      &--#{$section} {
-        border-left: solid $color 4px;
-      }
-    }
-  }
-}
 
 .site-navbar {
   $self: &;
   &__logo {
     height: 45px;
   }
-
-  &--primary,
+  // remove dynamic color changers instead show top with primary & secondary black.
+  &--top,
   &--secondary {
-    @each $section, $color in $website-section-colors {
-      #{ $self } {
-        &__link[href*="#{$section}"]:hover,
-        &__link--active[href*="#{$section}"] {
-          color: $color;
-        }
+    background-color: $primary;
+    #{ $self } {
+      &__link:hover,
+      &__link--active {
+        color: $white;
+        font-weight: bold;
+      }
+    }
+  }
+  &--primary {
+    #{ $self } {
+      &__link:hover,
+      &__link--active {
+        color: $primary;
+        font-weight: bold;
       }
     }
   }
