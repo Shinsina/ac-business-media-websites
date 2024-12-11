@@ -1,6 +1,6 @@
 const configureGAM = require('@ac-business-media/package-global/config/gam');
 
-const basePath = 'forconstructionpros';
+const basePath = 'pavement';
 
 const config = configureGAM({ basePath });
 
