@@ -7,5 +7,5 @@ module.exports = config({
   idxConfig,
   // @todo: rapidIdentProductId & siteId
   rapidIdentProductId: 15375,
-  websiteBehaviorAttributeId: 451156,
+  websiteBehaviorAttributeId: 524706,
 });
