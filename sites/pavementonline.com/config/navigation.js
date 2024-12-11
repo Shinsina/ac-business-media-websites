@@ -11,7 +11,6 @@ const topics = [
   { href: '/business', label: 'Business' },
 ];
 
-
 const top = [
   ...topics,
   { href: '/videos', label: 'Videos' },
