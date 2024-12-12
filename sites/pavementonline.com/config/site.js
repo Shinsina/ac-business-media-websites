@@ -11,6 +11,12 @@ const omedaIdentityX = require('./omeda-identity-x');
 const identityXOptInHooks = require('./identity-x-opt-in-hooks');
 const pageDetails = require('./page-details');
 
+const sectionSearchIds = [
+  88732, // Blacktop
+  88738, // Maintenance
+  88743, // Business
+];
+
 module.exports = {
   // Module configs
   useLinkInjectedBody: process.env.USE_LINK_INJECTED_BODY || true,
@@ -105,11 +111,10 @@ module.exports = {
   },
   pageDetails,
   showCompanySectionFilters: true,
-  sectionSearchIds: [
-    88732, // Blacktop
-    88738, // Maintenance
-    88743, // Business
-  ],
+  sectionSearchIds,
+  search: {
+    assignedToWebsiteSectionIds: sectionSearchIds,
+  },
   mindful: {
     namespace: 'acbm/default',
   },

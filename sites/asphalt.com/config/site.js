@@ -17,6 +17,14 @@ const omedaIdentityX = require('./omeda-identity-x');
 const identityXOptInHooks = require('./identity-x-opt-in-hooks');
 const pageDetails = require('./page-details');
 
+const sectionSearchIds = [
+  88709, // Application
+  88717, // Production
+  88721, // Business
+];
+
+const notificationBG = '#9acb3c';
+
 module.exports = {
   // Module configs
   useLinkInjectedBody: process.env.USE_LINK_INJECTED_BODY || true,
@@ -89,14 +97,14 @@ module.exports = {
   contactUs: {
     notificationDefaults: {
       branding: {
-        bgColor: '#af4d34',
+        bgColor: notificationBG,
         logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_bw_logo.png?h=45&auto=format,compress',
       },
       to: 'support@asphalt.com',
       from: 'Asphalt Contractor <noreply@asphalt.com>',
     },
     branding: {
-      bgColor: '#af4d34',
+      bgColor: notificationBG,
       logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_bw_logo.png?h=45&auto=format,compress',
     },
     to: 'support@asphalt.com',
@@ -107,15 +115,14 @@ module.exports = {
     sendTo: 'requestmoreinfo@acbusinessmedia.com',
     sendFrom: 'Asphalt.com <noreply@parameter1.com>',
     logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_bw_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
-    bgColor: '#af4d34',
+    bgColor: notificationBG,
   },
   pageDetails,
   showCompanySectionFilters: true,
-  sectionSearchIds: [
-    88709, // Application
-    88717, // Production
-    88721, // Business
-  ],
+  sectionSearchIds,
+  search: {
+    assignedToWebsiteSectionIds: sectionSearchIds,
+  },
   specGuides,
   mindful: {
     namespace: 'acbm/default',
