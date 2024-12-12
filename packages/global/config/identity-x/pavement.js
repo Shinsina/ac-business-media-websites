@@ -1,4 +1,4 @@
-const formDefault = require('@ac-business-media/package-global/config/identity-x/default');
+const formDefault = require('./default');
 
 const form = {
   title: 'Pavement Content Form',
