@@ -6,5 +6,5 @@ Disallow: *
 Disallow: /__
 Disallow: /print/content
 
-Sitemap: https://www.forconstructionpros.com/sitemap.xml
-Sitemap: https://www.forconstructionpros.com/sitemap-google-news.xml
+Sitemap: https://www.asphalt.com/sitemap.xml
+Sitemap: https://www.asphalt.com/sitemap-google-news.xml
