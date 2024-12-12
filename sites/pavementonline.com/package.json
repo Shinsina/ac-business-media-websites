@@ -11,10 +11,7 @@
     "account": "acbm",
     "stack": "leonis",
     "key": "pvm",
-    "deploy": {
-      "production": false,
-      "staging": true
-    }
+    "deploy": true
   },
   "scripts": {
     "dev": "basecms-website dev --compile-dir ../../packages --watch-dir ../../packages --purge-css-content-dir ../../packages --purge-css-content-dir ../../node_modules/@parameter1",
