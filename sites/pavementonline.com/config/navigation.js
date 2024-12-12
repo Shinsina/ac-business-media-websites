@@ -153,7 +153,7 @@ module.exports = {
     col3: {
       label: 'Expert Insights',
       items: [
-        ...expertInsights
+        ...expertInsights,
       ],
     },
     col4: {
