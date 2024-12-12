@@ -10,7 +10,7 @@ $ const title = defaultValue(input.title, "Recommended");
   <if(hasUser)>
     $ const answeredQuestions = user.customSelectFieldAnswers.filter((answers) => answers.hasAnswered);
     $ const { assignedRecommendContentSections } = personasHandler({ answeredQuestions });
-    $ const sectionIdForRecommendedContent = assignedRecommendContentSections[Math.floor(Math.random() * assignedRecommendContentSections.length)];
+    $ const sectionIdForRecommendedContent = assignedRecommendContentSections ? assignedRecommendContentSections[Math.floor(Math.random() * assignedRecommendContentSections.length)] : null;
     <if(sectionIdForRecommendedContent)>
       $ const queryParams = {
         sectionId: sectionIdForRecommendedContent,
