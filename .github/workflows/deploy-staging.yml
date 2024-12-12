@@ -52,13 +52,13 @@ jobs:
         #v# Make sure this matches the site matrix! #v#
         ###############################################
         site:
-          - { dir: asphalt.com, stack: leonis, id: 675738bf11878ad52d62f188, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-asphalt.com }
+          - { dir: asphalt.com, stack: tauron, id: 675738bf11878ad52d62f188, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-asphalt.com }
           - { dir: foodlogistics.com, stack: tauron, id: 53c95f4a1784f8066eb2c86a, account: acbm, tenant: acbm_scn, rancher_label: ac-business-media-foodlogistics.com }
           - { dir: forconstructionpros.com, stack: tauron, id: 53ca8d671784f8066eb2c949, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-forconstructionpros.com }
           - { dir: greenindustrypros.com, stack: tauron, id: 53c95fdd1784f8066eb2c891, account: acbm, tenant: acbm_gip, rancher_label: ac-business-media-greenindustrypros.com }
           - { dir: ironpros.com, stack: tauron, id: 65f8419f7985623e9ff46d6e, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-ironpros.com }
           - { dir: oemoffhighway.com, stack: tauron, id: 54b5a261c99db54158ed0fc9, account: acbm, tenant: acbm_ooh, rancher_label: ac-business-media-oemoffhighway.com }
-          - { dir: pavementonline.com, stack: leonis, id: 6757395211878ad52d66131a, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-pavementonline.com }
+          - { dir: pavementonline.com, stack: tauron, id: 6757395211878ad52d66131a, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-pavementonline.com }
           - { dir: rentalproductnews.com, stack: tauron, id: 53ca8d671784f8066eb2c949, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-rentalproductnews.com }
           - { dir: sdcexec.com, stack: tauron, id: 53c960451784f8066eb2c8a4, account: acbm, tenant: acbm_scn, rancher_label: ac-business-media-sdcexec.com }
         ###############################################
@@ -80,13 +80,13 @@ jobs:
         #v# Make sure this matches the site matrix! #v#
         ###############################################
         site:
-          - { dir: asphalt.com, stack: leonis, id: 675738bf11878ad52d62f188, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-asphalt.com }
+          - { dir: asphalt.com, stack: tauron, id: 675738bf11878ad52d62f188, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-asphalt.com }
           - { dir: foodlogistics.com, stack: tauron, id: 53c95f4a1784f8066eb2c86a, account: acbm, tenant: acbm_scn, rancher_label: ac-business-media-foodlogistics.com }
           - { dir: forconstructionpros.com, stack: tauron, id: 53ca8d671784f8066eb2c949, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-forconstructionpros.com }
           - { dir: greenindustrypros.com, stack: tauron, id: 53c95fdd1784f8066eb2c891, account: acbm, tenant: acbm_gip, rancher_label: ac-business-media-greenindustrypros.com }
           - { dir: ironpros.com, stack: tauron, id: 65f8419f7985623e9ff46d6e, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-ironpros.com }
           - { dir: oemoffhighway.com, stack: tauron, id: 54b5a261c99db54158ed0fc9, account: acbm, tenant: acbm_ooh, rancher_label: ac-business-media-oemoffhighway.com }
-          - { dir: pavementonline.com, stack: leonis, id: 6757395211878ad52d66131a, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-pavementonline.com }
+          - { dir: pavementonline.com, stack: tauron, id: 6757395211878ad52d66131a, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-pavementonline.com }
           - { dir: rentalproductnews.com, stack: tauron, id: 53ca8d671784f8066eb2c949, account: acbm, tenant: acbm_fcp, rancher_label: ac-business-media-rentalproductnews.com }
           - { dir: sdcexec.com, stack: tauron, id: 53c960451784f8066eb2c8a4, account: acbm, tenant: acbm_scn, rancher_label: ac-business-media-sdcexec.com }
         ###############################################
