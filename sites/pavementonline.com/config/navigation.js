@@ -19,7 +19,6 @@ const top = [
 ];
 
 const exclusives = [
-  { href: '/specguide', label: 'Spec Guides' },
   { href: '/premium-content', label: 'Premium Content' },
   { href: 'https://www.pavexshow.com/', label: 'PAVE/X', target: '_blank' },
   { href: 'https://igniteconstructionsummit.com/', label: 'IGNITE', target: '_blank' },
