@@ -1,6 +1,6 @@
-const { get, getAsObject } = require('@parameter1/base-cms-object-path');
-const MarkoWebSearchConfig = require('@parameter1/base-cms-marko-web-search/config');
-const middleware = require('@parameter1/base-cms-marko-web-search/middleware');
+const { get, getAsObject } = require('@mindful-web/object-path');
+const MarkoWebSearchConfig = require('@mindful-web/marko-web-search/config');
+const middleware = require('@mindful-web/marko-web-search/middleware');
 const template = require('../templates/search');
 
 module.exports = (app, siteConfig) => {

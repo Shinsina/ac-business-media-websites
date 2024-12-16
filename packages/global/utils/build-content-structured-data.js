@@ -1,4 +1,4 @@
-const objectPath = require('@parameter1/base-cms-object-path');
+const objectPath = require('@mindful-web/object-path');
 
 const { getAsArray } = objectPath;
 

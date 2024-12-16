@@ -1,4 +1,4 @@
-const { websiteScheduledContent } = require('@parameter1/base-cms-web-common/block-loaders');
+const { websiteScheduledContent } = require('@mindful-web/web-common/block-loaders');
 const defaultFragment = require('../graphql/fragments/home-page-top-stories');
 
 const loadTopStoryContent = async (apolloClient, params = {}) => {

@@ -1,5 +1,5 @@
-const { websiteScheduledContent, websiteOptionedContent } = require('@parameter1/base-cms-web-common/block-loaders');
-const defaultFragment = require('@parameter1/base-cms-marko-web-theme-monorail/graphql/fragments/content-list');
+const { websiteScheduledContent, websiteOptionedContent } = require('@mindful-web/web-common/block-loaders');
+const defaultFragment = require('@mindful-web/marko-web-theme-monorail/graphql/fragments/content-list');
 
 const loadFeaturedContent = async (apolloClient, params = {}) => {
   const defaults = {

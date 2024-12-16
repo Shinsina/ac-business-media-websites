@@ -1,4 +1,4 @@
-const { get, getAsArray } = require('@parameter1/base-cms-object-path');
+const { get, getAsArray } = require('@mindful-web/object-path');
 
 // ps short for Personas
 const ps = [

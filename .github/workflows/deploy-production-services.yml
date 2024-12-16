@@ -81,7 +81,7 @@ jobs:
         run: |
           npx @parameter1/rancher2cli dl \
             --wait --namespace ${{ matrix.service.namespace }} \
-            basecms-website-service	acbm-${{ matrix.service.name }} \
+            mindful-web-website-service	acbm-${{ matrix.service.name }} \
             ${{ vars.AWS_ECR_REGISTRY }}/base-cms-websites:acbm-${{ matrix.service.name }}-${{ needs.version.outputs.version }}
         env:
           RANCHER_CLUSTERID: ${{ secrets.RANCHER_CLUSTERID_BASECMS }}

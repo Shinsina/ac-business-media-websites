@@ -1,7 +1,7 @@
-import ContactUs from '@parameter1/base-cms-marko-web-contact-us/browser';
-import GCSE from '@parameter1/base-cms-marko-web-gcse/browser';
-import MonoRail from '@parameter1/base-cms-marko-web-theme-monorail/browser';
-import Leaders from '@parameter1/base-cms-marko-web-leaders/browser';
+import ContactUs from '@mindful-web/marko-web-contact-us/browser';
+import GCSE from '@mindful-web/marko-web-gcse/browser';
+import MonoRail from '@mindful-web/marko-web-theme-monorail/browser';
+import Leaders from '@mindful-web/marko-web-leaders/browser';
 
 const GlobalCompanySearch = () => import(/* webpackChunkName: "global-company-search" */ './company-search.vue');
 const GlobalSectionSearch = () => import(/* webpackChunkName: "global-section-search" */ './section-search.vue');

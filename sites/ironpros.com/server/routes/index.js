@@ -1,4 +1,4 @@
-const { asyncRoute } = require('@parameter1/base-cms-utils');
+const { asyncRoute } = require('@mindful-web/utils');
 const directory = require('@ac-business-media/package-global/routes/directory');
 const nativeX = require('@ac-business-media/package-global/routes/native-x');
 const home = require('./home');

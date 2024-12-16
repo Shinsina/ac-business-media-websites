@@ -51,7 +51,7 @@ module.exports = {
   ],
   radix: {
     enabled: true,
-    url: 'https://radix.base.parameter1.com',
+    url: 'https://radix.mindful-web.parameter1.com',
     appId: '8d348e1f-b6d0-4065-8260-e1ffd63c7ab9',
     submissionFieldIds: [
       { name: 'comments', id: '5a0dccab3bab46eb316cd352' },

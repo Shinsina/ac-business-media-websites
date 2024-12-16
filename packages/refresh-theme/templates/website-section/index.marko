@@ -1,9 +1,9 @@
-import { get, getAsObject } from "@parameter1/base-cms-object-path";
-import hierarchyAliases from "@parameter1/base-cms-marko-web/utils/hierarchy-aliases";
+import { get, getAsObject } from "@mindful-web/object-path";
+import hierarchyAliases from "@mindful-web/marko-web/utils/hierarchy-aliases";
 import queryFragment from "../../graphql/fragments/content-list";
 import latestQueryFragment from "../../graphql/fragments/content-latest";
 
-$ const { titleize, pluralize } = require('@parameter1/base-cms-inflector');
+$ const { titleize, pluralize } = require('@mindful-web/inflector');
 
 $ const { GAM } = out.global;
 $ const contentTypes = get(out, "global.req.query.contentTypes");

@@ -1,4 +1,4 @@
-const { withContent } = require('@parameter1/base-cms-marko-web/middleware');
+const { withContent } = require('@mindful-web/marko-web/middleware');
 const userState = require('@ac-business-media/refresh-theme/middleware/user-state');
 const content = require('@ac-business-media/refresh-theme/templates/content');
 // const contact = require('@ac-business-media/refresh-theme/templates/content/contact');

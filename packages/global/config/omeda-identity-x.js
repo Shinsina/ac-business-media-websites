@@ -1,5 +1,5 @@
-const { getOmedaCustomerRecord } = require('@parameter1/base-cms-marko-web-omeda-identity-x/omeda-data');
-const { get, getAsArray } = require('@parameter1/base-cms-object-path');
+const { getOmedaCustomerRecord } = require('@mindful-web/marko-web-omeda-identity-x/omeda-data');
+const { get, getAsArray } = require('@mindful-web/object-path');
 
 module.exports = ({
   omedaConfig,

@@ -1,5 +1,5 @@
-const { asyncRoute, isFunction: isFn } = require('@parameter1/base-cms-utils');
-const { getAsArray, get } = require('@parameter1/base-cms-object-path');
+const { asyncRoute, isFunction: isFn } = require('@mindful-web/utils');
+const { getAsArray, get } = require('@mindful-web/object-path');
 const gql = require('graphql-tag');
 const { encode } = require('html-entities');
 const moment = require('moment');

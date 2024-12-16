@@ -1,4 +1,4 @@
-const { buildImgixUrl } = require('@parameter1/base-cms-image');
+const { buildImgixUrl } = require('@mindful-web/image');
 const cheerio = require('cheerio');
 const { URL, URLSearchParams } = require('url');
 

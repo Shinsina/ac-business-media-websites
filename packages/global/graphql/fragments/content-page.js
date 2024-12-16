@@ -1,5 +1,5 @@
 const gql = require('graphql-tag');
-const qf = require('@parameter1/base-cms-marko-web-theme-monorail/graphql/fragments/content-page');
+const qf = require('@mindful-web/marko-web-theme-monorail/graphql/fragments/content-page');
 
 const factory = ({ useLinkInjectedBody = false, withMagazineSchedules = false } = {}) => {
   const monorailFragment = qf.factory ? qf.factory(

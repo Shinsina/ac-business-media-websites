@@ -1,12 +1,12 @@
 const newrelic = require('newrelic');
-const { startServer } = require('@parameter1/base-cms-marko-web');
-const { set, get, getAsObject } = require('@parameter1/base-cms-object-path');
-const loadInquiry = require('@parameter1/base-cms-marko-web-inquiry');
-const htmlSitemapPagination = require('@parameter1/base-cms-marko-web-html-sitemap/middleware/paginated');
-const contactUsHandler = require('@parameter1/base-cms-marko-web-contact-us');
-const identityX = require('@parameter1/base-cms-marko-web-identity-x');
-const omedaIdentityX = require('@parameter1/base-cms-marko-web-omeda-identity-x');
-const contentGating = require('@parameter1/base-cms-marko-web-theme-monorail/middleware/content-gating');
+const { startServer } = require('@mindful-web/marko-web');
+const { set, get, getAsObject } = require('@mindful-web/object-path');
+const loadInquiry = require('@mindful-web/marko-web-inquiry');
+const htmlSitemapPagination = require('@mindful-web/marko-web-html-sitemap/middleware/paginated');
+const contactUsHandler = require('@mindful-web/marko-web-contact-us');
+const identityX = require('@mindful-web/marko-web-identity-x');
+const omedaIdentityX = require('@mindful-web/marko-web-omeda-identity-x');
+const contentGating = require('@mindful-web/marko-web-theme-monorail/middleware/content-gating');
 
 const specGuideHandler = require('./routes/spec-guide');
 const document = require('./components/document');

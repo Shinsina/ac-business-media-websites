@@ -1,6 +1,6 @@
 const parser = require('ua-parser-js');
-const defaultValue = require('@parameter1/base-cms-marko-core/utils/default-value');
-const { get } = require('@parameter1/base-cms-object-path');
+const defaultValue = require('@mindful-web/marko-core/utils/default-value');
+const { get } = require('@mindful-web/object-path');
 
 const cookieName = 'enlPrompted';
 

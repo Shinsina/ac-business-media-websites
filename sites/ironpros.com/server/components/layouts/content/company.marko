@@ -1,9 +1,9 @@
-import { getAsArray, getAsObject, get } from "@parameter1/base-cms-object-path";
-import eventLinkAttrs from "@parameter1/base-cms-marko-web-p1-events/utils/link-attrs";
-import eventEntity from "@parameter1/base-cms-marko-web-p1-events/utils/base-content-entity";
-import queryFragment from "@parameter1/base-cms-marko-web-theme-monorail/graphql/fragments/content-list";
-import { buildImgixUrl } from "@parameter1/base-cms-image";
-import imageHeight from "@parameter1/base-cms-marko-web/components/node/utils/image-height";
+import { getAsArray, getAsObject, get } from "@mindful-web/object-path";
+import eventLinkAttrs from "@mindful-web/marko-web-p1-events/utils/link-attrs";
+import eventEntity from "@mindful-web/marko-web-p1-events/utils/base-content-entity";
+import queryFragment from "@mindful-web/marko-web-theme-monorail/graphql/fragments/content-list";
+import { buildImgixUrl } from "@mindful-web/image";
+import imageHeight from "@mindful-web/marko-web/components/node/utils/image-height";
 
 $ const { id, type, pageNode, ...rest } = input;
 $ const sections = getAsArray(input, "sections");

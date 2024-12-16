@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import EventBus from '@parameter1/base-cms-marko-web/browser/event-bus';
+import EventBus from '@mindful-web/marko-web/browser/event-bus';
 
 export default {
   created() {

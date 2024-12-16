@@ -1,6 +1,6 @@
 /*! critical:start */
-@import "@parameter1/base-cms-marko-web-reveal-ad/scss/reveal-ad";
-@import "@parameter1/base-cms-marko-web-theme-monorail/scss/components/reveal-ad";
+@import "@mindful-web/marko-web-reveal-ad/scss/reveal-ad";
+@import "@mindful-web/marko-web-theme-monorail/scss/components/reveal-ad";
 /*! critical:end */
 /*! critical:start */
 
@@ -16,7 +16,7 @@
 // }
 
 // // Prevent Reveal Ad from causing CLS
-// // @TODO determin if this should be moved to @parameter1/base-cms-marko-web
+// // @TODO determin if this should be moved to @mindful-web/marko-web
 // #marko-web-reveal-ad-handler {
 //   display: none;
 // }

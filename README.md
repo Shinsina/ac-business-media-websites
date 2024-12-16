@@ -58,11 +58,11 @@ docker compose up sdc
 ```
 
 ## Native Node.JS
-To use in a native node environment, run `yarn` from the project root, then use the `dev` command of the `basecms-website` CLI from the site folder:
+To use in a native node environment, run `yarn` from the project root, then use the `dev` command of the `mindful-web-website` CLI from the site folder:
 ```sh
 yarn install --pure-lockfile
 cd sites/foodlogistics.com
-./node_modules/.bin/basecms-website dev index.js
+./node_modules/.bin/mindful-web-website dev index.js
 ```
 
 Note the default values currently specified for each service within the docker-compose file -- these values must be present within your `env` in order to successfully boot the project!

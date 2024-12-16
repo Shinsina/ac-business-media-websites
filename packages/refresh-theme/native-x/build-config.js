@@ -1,5 +1,5 @@
-const NativeXConfiguration = require('@parameter1/base-cms-marko-web-native-x/config');
-const { asObject } = require('@parameter1/base-cms-utils');
+const NativeXConfiguration = require('@mindful-web/marko-web-native-x/config');
+const { asObject } = require('@mindful-web/utils');
 
 module.exports = ({
   uri = process.env.NATIVEX_SERVE_URI || 'https://delivery.mindfulcms.com/acbm/default/compat/native-website',

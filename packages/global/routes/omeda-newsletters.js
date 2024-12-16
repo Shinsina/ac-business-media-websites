@@ -1,6 +1,6 @@
 const { Router } = require('express');
-const { asyncRoute } = require('@parameter1/base-cms-utils');
-const jsonErrorHandler = require('@parameter1/base-cms-marko-web/express/json-error-handler');
+const { asyncRoute } = require('@mindful-web/utils');
+const jsonErrorHandler = require('@mindful-web/marko-web/express/json-error-handler');
 const createError = require('http-errors');
 const { json } = require('body-parser');
 const fetch = require('node-fetch');

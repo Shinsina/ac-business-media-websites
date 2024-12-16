@@ -84,7 +84,7 @@ $image-mobile-height: 112px !default;
   font-family: $theme-header-font-family
 }
 
-@import "@parameter1/base-cms-marko-web-photoswipe/scss/main";
+@import "@mindful-web/marko-web-photoswipe/scss/main";
 
 @import "./components/home-graphical-section";
 @import "./components/welcome-box";
