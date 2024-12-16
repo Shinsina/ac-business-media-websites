@@ -1,4 +1,5 @@
 const corporate = require('@ac-business-media/package-global/config/corporate');
+const specGuides = require('@ac-business-media/package-global/config/spec-guides');
 const contentMeter = require('./content-meter');
 const gam = require('./gam');
 const identityX = require('./identity-x');
@@ -9,7 +10,17 @@ const omeda = require('./omeda');
 const omedaIdentityX = require('./omeda-identity-x');
 const identityXOptInHooks = require('./identity-x-opt-in-hooks');
 const pageDetails = require('./page-details');
-const specGuides = require('./spec-guides');
+
+const sectionSearchIds = [
+  54289, // Asphalt
+  54300, // Business
+  54436, // Concrete
+  54319, // Construction Technology
+  54330, // Equipment
+  54468, // Pavement Maintenance
+];
+
+const notificationBG = '#F26522';
 
 module.exports = {
   // Module configs
@@ -113,14 +124,14 @@ module.exports = {
   contactUs: {
     notificationDefaults: {
       branding: {
-        bgColor: '#000',
+        bgColor: notificationBG,
         logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/site_logo.png?h=45&auto=format,compress',
       },
       to: 'support@forconstructionpros.com',
       from: 'For Construction Pros <noreply@forconstructionpros.com>',
     },
     branding: {
-      bgColor: '#000',
+      bgColor: notificationBG,
       logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/site_logo.png?h=45&auto=format,compress',
     },
     to: 'support@forconstructionpros.com',
@@ -131,18 +142,14 @@ module.exports = {
     sendTo: 'requestmoreinfo@acbusinessmedia.com',
     sendFrom: 'ForConstructionPros.com <noreply@parameter1.com>',
     logo: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/site_logo.png?h=45&auto=format,compress&bg=000000&pad=5',
-    bgColor: '#000',
+    bgColor: notificationBG,
   },
   pageDetails,
   showCompanySectionFilters: true,
-  sectionSearchIds: [
-    54289, // Asphalt
-    54300, // Business
-    54436, // Concrete
-    54319, // Construction Technology
-    54330, // Equipment
-    54468, // Pavement Maintenance
-  ],
+  sectionSearchIds,
+  search: {
+    assignedToWebsiteSectionIds: sectionSearchIds,
+  },
   specGuides,
   mindful: {
     namespace: 'acbm/default',

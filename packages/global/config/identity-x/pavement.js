@@ -1,9 +1,9 @@
-const formDefault = require('@ac-business-media/package-global/config/identity-x/default');
+const formDefault = require('./default');
 
 const form = {
-  title: 'Asphalt Content Form',
-  anonymousCta: 'Register to access this Asphalt piece of content',
-  authenticatedCta: 'Fill out to access this Asphalt piece of content.',
+  title: 'Pavement Content Form',
+  anonymousCta: 'Register to access this Pavement piece of content',
+  authenticatedCta: 'Fill out to access this Pavement piece of content.',
   fieldRows: [
     // spread default form and add to it.
     ...formDefault.fieldRows,
@@ -13,14 +13,14 @@ form.fieldRows.push(
   [
     {
       label: 'Job Title',
-      id: '66436fceafb6131c4a841f26',
+      id: '664b630aeab51a9936d99d59',
       type: 'custom-select',
       required: true,
       width: 0.5,
     },
     {
       label: 'Primary Business',
-      id: '66437894235da5b2358f59e9',
+      id: '664b61a70635be184a616332',
       type: 'custom-select',
       required: true,
       width: 0.5,

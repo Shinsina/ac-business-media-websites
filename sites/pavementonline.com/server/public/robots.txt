@@ -1,0 +1,10 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+Disallow: *
+Disallow: /__
+Disallow: /print/content
+
+Sitemap: https://www.pavementonline.com/sitemap.xml
+Sitemap: https://www.pavementonline.com/sitemap-google-news.xml

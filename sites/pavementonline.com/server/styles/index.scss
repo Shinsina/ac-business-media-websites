@@ -1,0 +1,127 @@
+$theme-site-header-breakpoints: (
+  hide-primary: 1100px,
+  hide-secondary: 700px,
+  small-logo: 775px,
+  small-text-primary: 0,
+  small-text-secondary: 830px
+);
+
+
+// Colors
+$primary: #ce3828;
+$secondary: #495057;
+$light: #e9ecef;
+$dark: #212529;
+$info: #6c757d;
+
+$skin-block-header-overline-color: $dark;
+$theme-site-navbar-secondary-font-size: 12px !default;
+
+@import "@ac-business-media/package-global/scss/core";
+
+/*! purgecss start ignore */
+/*! critical:start|website-section.directory */
+@import "@ac-business-media/package-global/scss/components/directory-static";
+/*! critical:end|website-section.directory */
+// Will most likely move to sites.
+@import "@ac-business-media/package-global/scss/components/reveal-ad";
+/*! purgecss end ignore */
+/*! critical:end */
+
+.spec-guide-button {
+  $color: #1e5d92;
+  @include button-variant($color, $color);
+
+  &--asphalt-paver {
+    $color: #751c1c;
+    @include button-variant($color, $color);
+  }
+
+  &--roller {
+    $color: #fdb813;
+    @include button-variant($color, $color);
+  }
+}
+
+.newsletter-form {
+  > .newsletter-signup-banner {
+    background-color: #3F4043;
+    color: $white;
+
+    &__name,
+    &__description,
+    label,
+    a {
+      color: $white;
+    }
+    .btn-primary,
+    .btn-primary:hover {
+      background-color: $primary;
+      color: $black;
+    }
+    &--large {
+      background-color: #3F4043;
+      .newsletter-signup-banner__name,
+      .newsletter-signup-banner__description,
+      label,
+      a {
+        color: $white;
+      }
+      .btn-primary,
+      .btn-primary:hover {
+        background-color: $primary;
+        color: $black;
+      }
+    }
+  }
+}
+
+
+
+
+body .document-container > .page--website-section-77798:first-of-type,
+body .document-container > .page--website-section-57411:first-of-type,
+body .document-container > .page--website-section-85252:first-of-type,
+body .document-container > .page--website-section-86540:first-of-type,
+body .document-container > .page--website-section-81549:first-of-type,
+body .document-container > .page--spec-guide-index:first-of-type,
+body .document-container > .page--spec-guide:first-of-type,
+body .document-container > .page--without-ads:first-of-type  {
+  margin-top: 0;
+}
+
+.site-navbar {
+  $self: &;
+  &__logo {
+    height: 45px;
+  }
+  // remove dynamic color changers instead show top with primary & secondary black.
+  &--top,
+  &--secondary {
+    background-color: $primary;
+    #{ $self } {
+      &__link:hover,
+      &__link--active {
+        color: $white;
+        font-weight: bold;
+      }
+    }
+  }
+  &--primary {
+    #{ $self } {
+      &__link:hover,
+      &__link--active {
+        color: $primary;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__items--tertiary {
+    #{ $self }__link {
+      padding-right: 0
+    }
+  }
+}
+/*! purgecss end ignore */
+/*! critical:end */
