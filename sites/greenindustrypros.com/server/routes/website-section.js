@@ -1,4 +1,4 @@
-const { withWebsiteSection } = require('@parameter1/base-cms-marko-web/middleware');
+const { withWebsiteSection } = require('@mindful-web/marko-web/middleware');
 const section = require('@ac-business-media/refresh-theme/templates/website-section');
 const publishedVideos = require('@ac-business-media/refresh-theme/templates/website-section/published-videos');
 const contactUs = require('@ac-business-media/refresh-theme/templates/website-section/contact-us');

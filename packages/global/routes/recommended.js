@@ -1,4 +1,4 @@
-const { withWebsiteSection } = require('@parameter1/base-cms-marko-web/middleware');
+const { withWebsiteSection } = require('@mindful-web/marko-web/middleware');
 const queryFragmentWC = require('../graphql/fragments/website-section-page-with-childeren');
 
 const regions = require('../templates/website-section/regions');

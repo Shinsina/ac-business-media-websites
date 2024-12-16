@@ -3,7 +3,7 @@ module.exports = [
   'https://s3-us-west-2.amazonaws.com',
   'https://tracker.samplicio.us',
   'https://acbm.native-x.parameter1.com',
-  'https://olytics.base.parameter1.com',
+  'https://olytics.mindful-web.parameter1.com',
   'https://ib.adnxs.com',
   'https://tps.doubleverify.com',
   'https://www.google-analytics.com',

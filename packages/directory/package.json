@@ -6,17 +6,17 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "compile": "basecms-marko-compile compile",
+    "compile": "mindful-web-marko-compile compile",
     "build": "yarn compile",
     "lint": "eslint --ext .js --ext .vue --max-warnings 5 --config ../../.eslintrc.js --ignore-path ../../.eslintignore ./",
     "lint:fix": "yarn lint --fix",
     "test": "yarn lint && yarn compile --no-clean"
   },
   "dependencies": {
-    "@parameter1/base-cms-marko-core": "^4.80.0",
-    "@parameter1/base-cms-marko-web": "^4.80.0",
-    "@parameter1/base-cms-marko-web-theme-default": "^4.80.4",
-    "@parameter1/base-cms-object-path": "^4.74.0"
+    "@mindful-web/marko-core": "^1.0.0",
+    "@mindful-web/marko-web": "^1.0.0",
+    "@mindful-web/marko-web-theme-default": "^1.0.0",
+    "@mindful-web/object-path": "^1.0.0"
   },
   "engines": {
     "node": ">=14.15"

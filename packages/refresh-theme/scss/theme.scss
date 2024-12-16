@@ -173,14 +173,14 @@ $theme-item-footer-font-size: 12px !default;
 $theme-newsletter-block-bg-color: #212121 !default;
 $theme-newsletter-block-button-bg-color: #c83e31 !default;
 
-@import "@parameter1/base-cms-marko-web-theme-default/scss/theme";
+@import "@mindful-web/marko-web-theme-default/scss/theme";
 
 $pswp__root-z-index: $theme-site-header-z-index + 1 !default;
-@import "@parameter1/base-cms-marko-web-photoswipe/scss/main";
+@import "@mindful-web/marko-web-photoswipe/scss/main";
 
-@import "@parameter1/base-cms-marko-web-gam/scss/fixed-ad-bottom";
-@import "@parameter1/base-cms-marko-web-social-sharing/scss/buttons";
-@import "@parameter1/base-cms-marko-web-reveal-ad/scss/reveal-ad";
+@import "@mindful-web/marko-web-gam/scss/fixed-ad-bottom";
+@import "@mindful-web/marko-web-social-sharing/scss/buttons";
+@import "@mindful-web/marko-web-reveal-ad/scss/reveal-ad";
 
 @import "@ac-business-media/package-common/scss/directory";
 @import "@ac-business-media/package-common/scss/spec-guide";

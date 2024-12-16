@@ -1,4 +1,4 @@
-const { asyncRoute } = require('@parameter1/base-cms-utils');
+const { asyncRoute } = require('@mindful-web/utils');
 
 const getId = (value) => {
   if (!value) return null;

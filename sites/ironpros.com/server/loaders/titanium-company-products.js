@@ -1,5 +1,5 @@
-const { websiteScheduledContent } = require('@parameter1/base-cms-web-common/block-loaders');
-const defaultFragment = require('@parameter1/base-cms-marko-web-theme-monorail/graphql/fragments/section-feed-block');
+const { websiteScheduledContent } = require('@mindful-web/web-common/block-loaders');
+const defaultFragment = require('@mindful-web/marko-web-theme-monorail/graphql/fragments/section-feed-block');
 const shuffle = require('@ac-business-media/package-global/utils/shuffle-array');
 
 const loadCompanies = async (apolloClient, params = {}) => {

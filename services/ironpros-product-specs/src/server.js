@@ -1,6 +1,6 @@
 const http = require('http');
 const express = require('express');
-const { asyncRoute } = require('@parameter1/base-cms-utils');
+const { asyncRoute } = require('@mindful-web/utils');
 const { collection } = require('./mongodb');
 
 const { error } = console;

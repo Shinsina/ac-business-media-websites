@@ -1,4 +1,4 @@
-const { asyncRoute } = require('@parameter1/base-cms-utils');
+const { asyncRoute } = require('@mindful-web/utils');
 const { json } = require('express');
 const fetch = require('node-fetch');
 // const specServiece = require('@ac-business-media/ironpros-product-spec');

@@ -1,4 +1,4 @@
-const { cleanEnv, validators } = require('@parameter1/base-cms-env');
+const { cleanEnv, validators } = require('@mindful-web/env');
 
 const { nonemptystr } = validators;
 

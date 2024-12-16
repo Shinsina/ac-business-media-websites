@@ -1,6 +1,6 @@
-const contentMetering = require('@parameter1/base-cms-marko-web-theme-monorail/middleware/content-metering');
+const contentMetering = require('@mindful-web/marko-web-theme-monorail/middleware/content-metering');
 
-const { withContent } = require('@parameter1/base-cms-marko-web/middleware');
+const { withContent } = require('@mindful-web/marko-web/middleware');
 const { newsletterState, formatContentResponse } = require('@ac-business-media/package-global/middleware/newsletter-state');
 const loaderFragment = require('@ac-business-media/package-global/graphql/fragments/content-primary-section');
 const redirectHandler = require('@ac-business-media/package-global/redirect-handler');

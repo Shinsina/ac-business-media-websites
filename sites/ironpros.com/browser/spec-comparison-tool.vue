@@ -160,7 +160,7 @@
 </template>
 
 <script>
-import DesktopDownload from '@parameter1/base-cms-marko-web-icons/browser/desktop-download.vue';
+import DesktopDownload from '@mindful-web/marko-web-icons/browser/desktop-download.vue';
 import CommonLink from './common/link.vue';
 import ProductSpec from './common/product-spec.vue';
 import appendSpecs from './utils/append-specs-to-products';

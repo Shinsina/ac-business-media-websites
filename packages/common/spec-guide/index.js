@@ -1,4 +1,4 @@
-const { asyncRoute } = require('@parameter1/base-cms-utils');
+const { asyncRoute } = require('@mindful-web/utils');
 const fetch = require('node-fetch');
 const { SPEC_GUIDE_DOCS_API_KEY } = require('../env');
 

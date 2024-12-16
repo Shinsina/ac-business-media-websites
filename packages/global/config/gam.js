@@ -1,4 +1,4 @@
-const GAMConfiguration = require('@parameter1/base-cms-marko-web-gam/config');
+const GAMConfiguration = require('@mindful-web/marko-web-gam/config');
 
 module.exports = ({
   accountId = '21772951814',

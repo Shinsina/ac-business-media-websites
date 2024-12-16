@@ -28,22 +28,22 @@ x-env-defaults: &env
   SENDGRID_DEV_TO: ${SENDGRID_DEV_TO-support@parameter1.com}
   YARN_CACHE_FOLDER: /.yarn-cache
   IDENTITYX_API_TOKEN: ${IDENTITYX_API_TOKEN-(unset)}
-  BASE_BROWSE_GRAPHQL_URI: ${BASE_BROWSE_GRAPHQL_URI-https://base-browse.tauron.base.parameter1.com/graphql}
+  BASE_BROWSE_GRAPHQL_URI: ${BASE_BROWSE_GRAPHQL_URI-https://browse.tauron.mindful-web.parameter1.com/graphql}
   NATIVEX_SERVE_URI: ${NATIVEX_SERVE_URI-}
   ENABLE_CONTEXT_GATING: ${ENABLE_CONTEXT_GATING-false}
   IDX_CONTENT_DOWNLOAD_MAXAGE: ${IDX_CONTENT_DOWNLOAD_MAXAGE-}
 
 x-env-tauron: &env-tauron
-  GRAPHQL_URI: ${GRAPHQL_URI-https://tauron.graphql.base.parameter1.com}
-  OEMBED_URI: ${OEMBED_URI-https://tauron.oembed.base.parameter1.com}
-  RSS_URI: ${RSS_URI-https://tauron.rss.base.parameter1.com}
-  SITEMAPS_URI: ${SITEMAPS_URI-https://tauron.sitemaps.base.parameter1.com}
+  GRAPHQL_URI: ${GRAPHQL_URI-https://tauron.graphql.mindful-web.parameter1.com}
+  OEMBED_URI: ${OEMBED_URI-https://tauron.oembed.mindful-web.parameter1.com}
+  RSS_URI: ${RSS_URI-https://tauron.rss.mindful-web.parameter1.com}
+  SITEMAPS_URI: ${SITEMAPS_URI-https://tauron.sitemaps.mindful-web.parameter1.com}
 
 x-env-leonis: &env-leonis
-  GRAPHQL_URI: ${GRAPHQL_URI-https://graphql.leonis.base.parameter1.com}
-  OEMBED_URI: ${OEMBED_URI-https://oembed.leonis.base.parameter1.com}
-  RSS_URI: ${RSS_URI-https://rss.leonis.base.parameter1.com}
-  SITEMAPS_URI: ${SITEMAPS_URI-https://sitemaps.leonis.base.parameter1.com}
+  GRAPHQL_URI: ${GRAPHQL_URI-https://graphql.leonis.mindful-web.parameter1.com}
+  OEMBED_URI: ${OEMBED_URI-https://oembed.leonis.mindful-web.parameter1.com}
+  RSS_URI: ${RSS_URI-https://rss.leonis.mindful-web.parameter1.com}
+  SITEMAPS_URI: ${SITEMAPS_URI-https://sitemaps.leonis.mindful-web.parameter1.com}
 
 x-env-development: &env-development
   GRAPHQL_URI: ${GRAPHQL_URI-http://host.docker.internal:10002}
@@ -174,7 +174,7 @@ services:
       LIVERELOAD_PORT: 19723
       OMEDA_INPUT_ID: ${IP_OMEDA_INPUT_ID-(unset)}
       IRONPROS_PRODUCT_SPECS_SERVICE_URL: ${IRONPROS_PRODUCT_SPECS_SERVICE_URL-http://ironpros-product-specs}
-      BASE_BROWSE_GRAPHQL_URI: ${IP_BASE_BROWSE_GRAPHQL_URI-https://base-browse.tauron.base.parameter1.com/graphql}
+      BASE_BROWSE_GRAPHQL_URI: ${IP_BASE_BROWSE_GRAPHQL_URI-https://browse.tauron.mindful-web.parameter1.com/graphql}
       HOST: www-acbm-ip.dev.parameter1.com
     hostname: www-acbm-ip.dev.parameter1.com
     ports:

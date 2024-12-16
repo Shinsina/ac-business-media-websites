@@ -1,17 +1,17 @@
-import DefaultTheme from '@parameter1/base-cms-marko-web-theme-default/browser';
-import ContactUs from '@parameter1/base-cms-marko-web-contact-us/browser';
-import GTM from '@parameter1/base-cms-marko-web-gtm/browser';
-import GAM from '@parameter1/base-cms-marko-web-gam/browser';
-import GCSE from '@parameter1/base-cms-marko-web-gcse/browser';
-import Inquiry from '@parameter1/base-cms-marko-web-inquiry/browser';
-import Leaders from '@parameter1/base-cms-marko-web-leaders/browser';
+import DefaultTheme from '@mindful-web/marko-web-theme-default/browser';
+import ContactUs from '@mindful-web/marko-web-contact-us/browser';
+import GTM from '@mindful-web/marko-web-gtm/browser';
+import GAM from '@mindful-web/marko-web-gam/browser';
+import GCSE from '@mindful-web/marko-web-gcse/browser';
+import Inquiry from '@mindful-web/marko-web-inquiry/browser';
+import Leaders from '@mindful-web/marko-web-leaders/browser';
 import Common from '@ac-business-media/package-common/browser';
-import SocialSharing from '@parameter1/base-cms-marko-web-social-sharing/browser';
-import PhotoSwipe from '@parameter1/base-cms-marko-web-photoswipe/browser';
-import RevealAd from '@parameter1/base-cms-marko-web-reveal-ad/browser';
-import Radix from '@parameter1/base-cms-marko-web-radix/browser';
-import P1Events from '@parameter1/base-cms-marko-web-p1-events/browser';
-import OmedaIdentityX from '@parameter1/base-cms-marko-web-omeda-identity-x/browser';
+import SocialSharing from '@mindful-web/marko-web-social-sharing/browser';
+import PhotoSwipe from '@mindful-web/marko-web-photoswipe/browser';
+import RevealAd from '@mindful-web/marko-web-reveal-ad/browser';
+import Radix from '@mindful-web/marko-web-radix/browser';
+import P1Events from '@mindful-web/marko-web-p1-events/browser';
+import OmedaIdentityX from '@mindful-web/marko-web-omeda-identity-x/browser';
 
 const setP1EventsIdentity = ({ p1events, brandKey, encryptedId }) => {
   if (!p1events || !brandKey || !encryptedId) return;

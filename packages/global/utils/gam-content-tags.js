@@ -1,4 +1,4 @@
-const { getAsArray } = require('@parameter1/base-cms-object-path');
+const { getAsArray } = require('@mindful-web/object-path');
 
 const gamifyTagName = (name) => name
   .replace(/[^/" ".&a-zA-Z0-9_-]/g, '')

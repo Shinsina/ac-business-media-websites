@@ -1,4 +1,4 @@
-const { withMagazineIssue, withMagazinePublication } = require('@parameter1/base-cms-marko-web/middleware');
+const { withMagazineIssue, withMagazinePublication } = require('@mindful-web/marko-web/middleware');
 const index = require('@ac-business-media/refresh-theme/templates/magazine');
 const publication = require('@ac-business-media/refresh-theme/templates/magazine/publication');
 const publicationFragment = require('@ac-business-media/refresh-theme/graphql/fragments/magazine-publication-page');

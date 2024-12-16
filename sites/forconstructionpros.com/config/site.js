@@ -62,9 +62,9 @@ module.exports = {
       srcset: [
         'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/site_logo.png?h=90&auto=format,compress 2x',
       ],
-      // src: 'https://s3.amazonaws.com/media.base.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=45&auto=format,compress',
+      // src: 'https://s3.amazonaws.com/media.mindful-web.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=45&auto=format,compress',
       // srcset: [
-      //   'https://s3.amazonaws.com/media.base.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=90&auto=format,compress 2x',
+      //   'https://s3.amazonaws.com/media.mindful-web.parameter1.com/files/base/acbm/fcp/image/static/logo/FCP-logo-high-res.png?h=90&auto=format,compress 2x',
       // ],
     },
     footer: {

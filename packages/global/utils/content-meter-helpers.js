@@ -1,4 +1,4 @@
-const { get } = require('@parameter1/base-cms-object-path');
+const { get } = require('@mindful-web/object-path');
 
 const cmShowOverlay = (contentMeterState) => {
   if (!contentMeterState) return false;

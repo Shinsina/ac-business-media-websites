@@ -1,5 +1,5 @@
-const { contentAccessState } = require('@parameter1/base-cms-marko-web-identity-x/middleware/content-access-state');
-const { contentDownloadState } = require('@parameter1/base-cms-marko-web-identity-x/middleware/content-download-state');
+const { contentAccessState } = require('@mindful-web/marko-web-identity-x/middleware/content-access-state');
+const { contentDownloadState } = require('@mindful-web/marko-web-identity-x/middleware/content-download-state');
 
 const formatContentResponse = ({ res, content }) => {
   contentAccessState({ res, content });
