@@ -49,7 +49,7 @@ const mobileMenu = {
     { href: '/events', label: 'Events' },
   ],
   secondary: [
-    { href: '/page/Subscribe-Links', label: 'Magazines' },
+    { href: '/magazine', label: 'Magazines' },
     { href: 'https://acbusiness.dragonforms.com/loading.do?omedasite=FCP_prefs_ProgReg', label: 'Newsletters' },
     { href: 'https://www.constructionnetworkmediakit.com/', label: 'Advertise', target: '_blank' },
   ],
@@ -57,7 +57,7 @@ const mobileMenu = {
 
 const tertiaryItems = [
   {
-    href: '/page/Subscribe-Links',
+    href: '/magazine',
     label: 'Magazines',
     icon: 'book',
     forceLabel: true,
