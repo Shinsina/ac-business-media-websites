@@ -20,6 +20,7 @@ const sectionSearchIds = [
 module.exports = {
   // Module configs
   useLinkInjectedBody: process.env.USE_LINK_INJECTED_BODY || true,
+  showHomeVideoNetworkBlock: true,
   contentMeter,
   sectionFeed: {
     imageOptions: { w: 240, h: 135, ar: '16:9' },

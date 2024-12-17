@@ -26,6 +26,8 @@ module.exports = {
   // Module configs
   useLinkInjectedBody: process.env.USE_LINK_INJECTED_BODY || true,
   contentMeter,
+  showHomeRecommendedBlock: true,
+  showHomeVideoNetworkBlock: true,
   sectionFeed: {
     imageOptions: { w: 240, h: 135, ar: '16:9' },
     mobileImageOptions: { w: 240, h: 135, ar: '16:9' },

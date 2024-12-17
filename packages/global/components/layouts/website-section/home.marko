@@ -117,29 +117,34 @@ $ const promise = homePageTopStoriesLoader(apollo, {
               </div>
             </@section>
 
-            <@section|{ aliases }| modifiers=["first-sm"]>
-              <theme-gam-define-display-ad
-                name="top-leaderboard"
-                position="section-page"
-                aliases=aliases
-              />
-            </@section>
+            <!-- Mindful Recommened Content Block -->
+            <if(site.get("showHomeRecommendedBlock") === true)>
+              <@section|{ aliases }| modifiers=["first-sm"]>
+                <theme-gam-define-display-ad
+                  name="top-leaderboard"
+                  position="section-page"
+                  aliases=aliases
+                />
+              </@section>
 
-            <@section>
-              <global-recommended-block section-alias=alias >
-                <@native-x indexes=[3] name="default" aliases=aliases />
-              </global-recommended-block>
-            </@section>
+              <@section>
+                <global-recommended-block section-alias=alias >
+                  <@native-x indexes=[3] name="default" aliases=aliases />
+                </global-recommended-block>
+              </@section>
+            </if>
 
-            <@section|{ aliases }|>
-              <theme-gam-define-display-ad
-                name="leaderboard"
-                position="section-page"
-                aliases=aliases
-              />
-            </@section>
+            <!-- Video Network Block -->
+            <!-- Viceo content Scheduled to your site.  -->
+            <if(site.get("showHomeVideoNetworkBlock") === true)>
+              <@section|{ aliases }|>
+                <theme-gam-define-display-ad
+                  name="leaderboard"
+                  position="section-page"
+                  aliases=aliases
+                />
+              </@section>
 
-            <if(get(config,"websiteContext.id") === "53ca8d671784f8066eb2c949")>
               <@section>
                 <global-hero-card-block
                   query-params={ includeContentTypes: ["Video"] }
