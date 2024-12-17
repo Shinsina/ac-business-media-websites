@@ -63,7 +63,7 @@ module.exports = {
     enabled: true,
     cookieDomain: process.env.NODE_ENV === 'production' ? 'www.asphalt.com' : '',
   },
-  showHomeVideoNetworkBlock: true,
+  showHomeVideoNetworkBlock: false,
   logos: {
     navbar: {
       src: 'https://img.forconstructionpros.com/files/base/acbm/fcp/image/static/logo/asphalt_bw_logo.png?h=45&auto=format,compress',
