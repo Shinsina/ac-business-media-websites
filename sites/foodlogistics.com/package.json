@@ -1,6 +1,6 @@
 {
   "name": "@ac-business-media/foodlogistics.com",
-  "version": "2.17.4",
+  "version": "3.0.0",
   "author": "Jacob Bare <jacob@limit0.io>",
   "repository": "https://github.com/parameter1/ac-business-media-websites/tree/master/sites/foodlogistics.com",
   "license": "MIT",
@@ -30,8 +30,8 @@
     "win32"
   ],
   "dependencies": {
-    "@ac-business-media/package-directory": "^2.17.4",
-    "@ac-business-media/refresh-theme": "^2.17.4",
+    "@ac-business-media/package-directory": "^3.0.0",
+    "@ac-business-media/refresh-theme": "^3.0.0",
     "@mindful-web/marko-core": "^1.0.0",
     "@mindful-web/marko-web": "^1.0.0",
     "@mindful-web/object-path": "^1.0.0",
