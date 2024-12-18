@@ -125,7 +125,7 @@ module.exports = {
       tertiary,
       primary: {
         items: [
-          { href: '/business/managment', label: 'Managment' },
+          { href: '/business/management', label: 'Managment' },
           { href: '/business/workforce', label: 'Workforce' },
           { href: '/business/safety', label: 'Safety' },
         ],
