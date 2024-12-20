@@ -28,6 +28,7 @@ const exclusives = [
 const expertInsights = [
   { href: '/premium-content', label: 'Premium Content' },
   { href: '/events', label: 'Events' },
+  { href: '/expert-columns', label: 'Expert Columns' },
   { href: '/magazine', label: 'Magazine' },
   { href: '/awards', label: 'Awards' },
 ];
