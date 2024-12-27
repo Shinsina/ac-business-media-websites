@@ -136,21 +136,19 @@ $ const fixedAdBottom = defaultValue(input.fixedAdBottom, true);
     </if>
   </@below-page>
   <@belowContainer>
-    <if(type !== "page")>
-      <marko-web-resolve-page|{ data: content, resolved }| node=pageNode>
-        $ const section = content.primarySection;
-        $ const labels = getAsArray(content, "labels");
-        $ const isSponsored = labels.includes("Sponsored");
-        $ const aliases = hierarchyAliases(section);
-        <if(withAds && !isSponsored)>
-          <theme-reveal-ad-handler
-            select-all-targets=true
-            path=GAM.getAdUnit({ name: "reskin", aliases }).path
-            id="reveal-ad"
-          />
-          <theme-fixed-ad-bottom aliases=aliases />
-        </if>
-      </marko-web-resolve-page>
-    </if>
+    <marko-web-resolve-page|{ data: content, resolved }| node=pageNode>
+      $ const section = content.primarySection;
+      $ const labels = getAsArray(content, "labels");
+      $ const isSponsored = labels.includes("Sponsored");
+      $ const aliases = hierarchyAliases(section);
+      <if(withAds && !isSponsored)>
+        <theme-reveal-ad-handler
+          select-all-targets=true
+          path=GAM.getAdUnit({ name: "reskin", aliases }).path
+          id="reveal-ad"
+        />
+        <theme-fixed-ad-bottom aliases=aliases />
+      </if>
+    </marko-web-resolve-page>
   </@belowContainer>
 </theme-content-page>
