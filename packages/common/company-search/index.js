@@ -11,7 +11,7 @@ module.exports = (app) => {
 
     const response = await loader(
       {
-        apolloBaseCMS: apollo,
+        apolloMindfulWebCMS: apollo,
         apolloBaseBrowse: $baseBrowse,
       },
       {
